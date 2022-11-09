@@ -1,7 +1,8 @@
-import pandas as pd
 import json
+import pandas as pd
 
-UB_XLSX_FILE = 'xlsx/UB-Section-Properties-And-Dimensions.xlsx'
+UB_XLSX_FILE = 'assets/xlsx/ub/ub_section_props_and_dims.xlsx'
+EXPORT_FILE = 'data/json/ub_sections_props_and_dims.json'
 SECTION_DESIGNATION = 'Unnamed: 0'
 SECTION_MASS_PER_M = 'Unnamed: 1'
 FIRST_THREE_COLS = [0, 1, 2]
@@ -44,16 +45,16 @@ df = df.iloc[:FOOTER_ROWS]
 df.drop(EMPTY_COL, axis=1, inplace=True)
 df.drop(FIRST_THREE_COLS, axis=0, inplace=True)
 df.fillna(method='ffill', inplace=True)
-df['UB Section Designation'] = (df[SECTION_DESIGNATION] + ' ' + df[SECTION_MASS_PER_M]).str.strip()
+df['UB Section Designation'] = df[SECTION_DESIGNATION] + ' ' + df[SECTION_MASS_PER_M]
 df.drop([SECTION_DESIGNATION, SECTION_MASS_PER_M], axis=1, inplace=True)
 df.rename(columns=COLUMN_LABELS, inplace=True)
 df.set_index('UB Section Designation', inplace=True)
-dict = df.transpose().to_dict()
+res = df.transpose().to_dict()
 
-for section, properties in dict.items():
-    for k, v in properties.items(): 
+for section, properties in res.items():
+    for k, v in properties.items():
         properties[k] = float(v)
 
-with open('UB-Sections.json', mode='w', encoding='utf-8') as f:
-    json.dump(dict, f)
+with open(EXPORT_FILE, mode='w', encoding='utf-8') as f:
+    json.dump(res, f)
     
