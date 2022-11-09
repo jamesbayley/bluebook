@@ -3,6 +3,7 @@
 	"runArgs": ["--name", "the-blue-book"],
 	"image": "mcr.microsoft.com/devcontainers/python:3.10",
 	"postCreateCommand": "pip install --user -r requirements.txt",
+	"remoteUser": "vscode",
 	"settings": {
 		"python.defaultInterpreterPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
