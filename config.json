@@ -1,0 +1,10 @@
+{
+  "ub": {
+    "inputFile": "xlsx/ub/ub_section_props.xlsx",
+    "outFile": "export/json/ub_sections_props.json"
+  },
+  "uc": {
+    "inputFile": "xlsx/uc/uc_section_props.xlsx",
+    "outFile": "export/json/uc_section_props.json"
+  }
+}
