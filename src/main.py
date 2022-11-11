@@ -7,21 +7,31 @@ from src.types import FilePath, SteelSectionClassification
 
 if __name__ == '__main__':
 
-    def wrangle_xlsx_files(s: SteelSectionClassification, f: Callable[[FilePath], SectionDefinitions]) -> None:
-        print(f'Processing {s.upper()} section data.')
-        save_section_data_to_json(
-            config[s]['outFile'],
-            coerce_section_def_values_to_float(
-                f(FilePath(config[s]['inputFile']))
-            )
-        )
-
-    args: Set[Tuple[SteelSectionClassification, Callable[[FilePath], SectionDefinitions]]] = {
-        ('ub', wrangle_universal_sections),
-        ('uc', wrangle_universal_sections)
+    section_categories = {
+        'ub',
+        'uc',
+        'ubp',
+        'pfc',
+        't-split-from-ub',
+        't-split-from-uc',
+        'equal-l',
+        'unequal-l',
+        'hf-shs',
+        'hf-rhs',
+        'hf-chs',
+        'hf-ehs',
+        'cf-shs',
+        'cf-rhs',
+        'cf-chs'
     }
 
     print('Loading configuration file.')
     config = load_config(FilePath('config.json'))
-    for sections_cat, wrangle in args:
-        wrangle_xlsx_files(sections_cat, wrangle)
+
+    for sc in section_categories:
+        print(f'Processing {sc.upper()} section data.')
+        filepath = FilePath(config[sc]['inputFile'])
+        save_section_data_to_json(
+            config[sc]['outFile'],
+            wrangle_section_data(filepath, config[sc])
+        )

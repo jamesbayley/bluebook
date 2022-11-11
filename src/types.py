@@ -38,7 +38,7 @@ SectionDefinitions = NewType('SectionDefinition', dict[SectionDesignation, Secti
 """
 The available set of steel section classifications.
 """
-SteelSectionClassification = Literal['ub', 'uc']
+SteelSectionClassification = NewType('SteelSectionClassification', 'str')
 
 """
 The set of sheet-specific arguments to inject when processing a
