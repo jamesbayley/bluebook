@@ -1,8 +1,6 @@
-from typing import Callable, Set, Tuple
-
 from src.io import *
 from src.wrangler import *
-from src.types import FilePath, SteelSectionClassification
+from src.types import FilePath
 
 
 if __name__ == '__main__':
@@ -26,12 +24,12 @@ if __name__ == '__main__':
     }
 
     print('Loading configuration file.')
-    config = load_config(FilePath('config.json'))
+    config = load_config(FilePath('../config.json'))
 
     for sc in section_categories:
         print(f'Processing {sc.upper()} section data.')
-        filepath = FilePath(config[sc]['inputFile'])
+        filepath = FilePath('../' + config[sc]['inputFile'])
         save_section_data_to_json(
-            config[sc]['outFile'],
+            '../' + config[sc]['outFile'],
             wrangle_section_data(filepath, config[sc])
         )

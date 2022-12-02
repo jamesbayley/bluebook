@@ -1,4 +1,4 @@
-from typing import Dict, List, NewType, Union, Literal
+from typing import Dict, List, NewType, Union
 
 """
 A standard string-based filepath representation.
@@ -38,7 +38,7 @@ SectionDefinitions = NewType('SectionDefinition', dict[SectionDesignation, Secti
 """
 The available set of steel section classifications.
 """
-SteelSectionClassification = NewType('SteelSectionClassification', 'str')
+SteelSectionClassification = NewType('SteelSectionClassification', str)
 
 """
 The set of sheet-specific arguments to inject when processing a
