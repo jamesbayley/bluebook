@@ -1,7 +1,7 @@
 [
   {
     "inputFile": "xlsx/ub/ub_section_props.xlsx",
-    "outFile": "export/json/ub_sections_props.json",
+    "outputFile": "export/json/ub_sections_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -37,7 +37,7 @@
   },
   {
     "inputFile": "xlsx/uc/uc_section_props.xlsx",
-    "outFile": "export/json/uc_section_props.json",
+    "outputFile": "export/json/uc_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -73,7 +73,7 @@
   },
   {
     "inputFile": "xlsx/ubp/ubp_section_props.xlsx",
-    "outFile": "export/json/ubp_section_props.json",
+    "outputFile": "export/json/ubp_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 5,
     "columnLabels": {
@@ -109,7 +109,7 @@
   },
   {
     "inputFile": "xlsx/pfc/pfc_section_props.xlsx",
-    "outFile": "export/json/pfc_section_props.json",
+    "outputFile": "export/json/pfc_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -146,7 +146,7 @@
   },
   {
     "inputFile": "xlsx/t_split_from_ub/t_split_from_ub_section_props.xlsx",
-    "outFile": "export/json/t_split_from_ub_section_props.json",
+    "outputFile": "export/json/t_split_from_ub_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -180,7 +180,7 @@
   },
   {
     "inputFile": "xlsx/t_split_from_uc/t_split_from_uc_section_props.xlsx",
-    "outFile": "export/json/t_split_from_uc_section_props.json",
+    "outputFile": "export/json/t_split_from_uc_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -214,7 +214,7 @@
   },
   {
     "inputFile": "xlsx/unequal_l/unequal_l_section_props.xlsx",
-    "outFile": "export/json/unequal_l_section_props.json",
+    "outputFile": "export/json/unequal_l_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -244,7 +244,7 @@
   },
   {
     "inputFile": "xlsx/equal_l/equal_l_section_props.xlsx",
-    "outFile": "export/json/equal_l_section_props.json",
+    "outputFile": "export/json/equal_l_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -267,7 +267,7 @@
   },
   {
     "inputFile": "xlsx/hf_shs/hf_shs_section_props.xlsx",
-    "outFile": "export/json/hf_shs_section_props.json",
+    "outputFile": "export/json/hf_shs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -287,7 +287,7 @@
   },
   {
     "inputFile": "xlsx/hf_rhs/hf_rhs_section_props.xlsx",
-    "outFile": "export/json/hf_rhs_section_props.json",
+    "outputFile": "export/json/hf_rhs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -312,7 +312,7 @@
   },
   {
     "inputFile": "xlsx/hf_chs/hf_chs_section_props.xlsx",
-    "outFile": "export/json/hf_chs_section_props.json",
+    "outputFile": "export/json/hf_chs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -332,7 +332,7 @@
   },
   {
     "inputFile": "xlsx/hf_ehs/hf_ehs_section_props.xlsx",
-    "outFile": "export/json/hf_ehs_section_props.json",
+    "outputFile": "export/json/hf_ehs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -355,7 +355,7 @@
   },
   {
     "inputFile": "xlsx/cf_shs/cf_shs_section_props.xlsx",
-    "outFile": "export/json/cf_shs_section_props.json",
+    "outputFile": "export/json/cf_shs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -375,7 +375,7 @@
   },
   {
     "inputFile": "xlsx/cf_rhs/cf_rhs_section_props.xlsx",
-    "outFile": "export/json/cf_rhs_section_props.json",
+    "outputFile": "export/json/cf_rhs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -400,7 +400,7 @@
   },
   {
     "inputFile": "xlsx/cf_chs/cf_chs_section_props.xlsx",
-    "outFile": "export/json/cf_chs_section_props.json",
+    "outputFile": "export/json/cf_chs_section_props.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
