@@ -1,6 +1,6 @@
 [
   {
-    "inputFile": "xlsx/ub/ub_section_props.xlsx",
+    "inputFile": "xlsx/section-properties/ub.xlsx",
     "outputFile": "cdn/v1/section-properties/ub.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "inputFile": "xlsx/uc/uc_section_props.xlsx",
+    "inputFile": "xlsx/section-properties/uc.xlsx",
     "outputFile": "cdn/v1/section-properties/uc.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
@@ -72,7 +72,7 @@
     }
   },
   {
-    "inputFile": "xlsx/ubp/ubp_section_props.xlsx",
+    "inputFile": "xlsx/section-properties/ubp.xlsx",
     "outputFile": "cdn/v1/section-properties/ubp.json",
     "headerRowCount": 9,
     "footerRowCount": 5,
@@ -108,7 +108,7 @@
     }
   },
   {
-    "inputFile": "xlsx/pfc/pfc_section_props.xlsx",
+    "inputFile": "xlsx/section-properties/pfc.xlsx",
     "outputFile": "cdn/v1/section-properties/pfc.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
@@ -145,8 +145,8 @@
     }
   },
   {
-    "inputFile": "xlsx/t_split_from_ub/t_split_from_ub_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/t_split_from_ub.json",
+    "inputFile": "xlsx/section-properties/t-split-from-ub.xlsx",
+    "outputFile": "cdn/v1/section-properties/t-split-from-ub.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -179,8 +179,8 @@
     }
   },
   {
-    "inputFile": "xlsx/t_split_from_uc/t_split_from_uc_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/t_split_from_uc.json",
+    "inputFile": "xlsx/section-properties/t-split-from-uc.xlsx",
+    "outputFile": "cdn/v1/section-properties/t-split-from-uc.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -213,8 +213,8 @@
     }
   },
   {
-    "inputFile": "xlsx/unequal_l/unequal_l_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/unequal_l.json",
+    "inputFile": "xlsx/section-properties/unequal-l.xlsx",
+    "outputFile": "cdn/v1/section-properties/unequal-l.json",
     "headerRowCount": 9,
     "footerRowCount": 8,
     "columnLabels": {
@@ -243,8 +243,8 @@
     }
   },
   {
-    "inputFile": "xlsx/equal_l/equal_l_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/equal_l.json",
+    "inputFile": "xlsx/section-properties/equal-l.xlsx",
+    "outputFile": "cdn/v1/section-properties/equal-l.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -266,8 +266,8 @@
     }
   },
   {
-    "inputFile": "xlsx/hf_shs/hf_shs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/hf_shs.json",
+    "inputFile": "xlsx/section-properties/hf-shs.xlsx",
+    "outputFile": "cdn/v1/section-properties/hf-shs.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -286,8 +286,8 @@
     }
   },
   {
-    "inputFile": "xlsx/hf_rhs/hf_rhs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/hf_rhs.json",
+    "inputFile": "xlsx/section-properties/hf-rhs.xlsx",
+    "outputFile": "cdn/v1/section-properties/hf-rhs.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -311,8 +311,8 @@
     }
   },
   {
-    "inputFile": "xlsx/hf_chs/hf_chs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/hf_chs.json",
+    "inputFile": "xlsx/section-properties/hf-chs.xlsx",
+    "outputFile": "cdn/v1/section-properties/hf-chs.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -331,8 +331,8 @@
     }
   },
   {
-    "inputFile": "xlsx/hf_ehs/hf_ehs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/hf_ehs.json",
+    "inputFile": "xlsx/section-properties/hf-ehs.xlsx",
+    "outputFile": "cdn/v1/section-properties/hf-ehs.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
@@ -354,8 +354,8 @@
     }
   },
   {
-    "inputFile": "xlsx/cf_shs/cf_shs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/cf_shs.json",
+    "inputFile": "xlsx/section-properties/cf-shs.xlsx",
+    "outputFile": "cdn/v1/section-properties/cf-shs.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -374,8 +374,8 @@
     }
   },
   {
-    "inputFile": "xlsx/cf_rhs/cf_rhs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/cf_rhs.json",
+    "inputFile": "xlsx/section-properties/cf-rhs.xlsx",
+    "outputFile": "cdn/v1/section-properties/cf-rhs.json",
     "headerRowCount": 9,
     "footerRowCount": 7,
     "columnLabels": {
@@ -399,8 +399,8 @@
     }
   },
   {
-    "inputFile": "xlsx/cf_chs/cf_chs_section_props.xlsx",
-    "outputFile": "cdn/v1/section-properties/cf_chs.json",
+    "inputFile": "xlsx/section-properties/cf-chs.xlsx",
+    "outputFile": "cdn/v1/section-properties/cf-chs.json",
     "headerRowCount": 9,
     "footerRowCount": 6,
     "columnLabels": {
