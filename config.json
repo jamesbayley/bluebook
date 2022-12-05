@@ -1,5 +1,5 @@
-{
-  "ub": {
+[
+  {
     "inputFile": "xlsx/ub/ub_section_props.xlsx",
     "outFile": "export/json/ub_sections_props.json",
     "headerRowCount": 9,
@@ -35,7 +35,7 @@
       "Unnamed: 29": "Area of Section, A (cm2)"
     }
   },
-  "uc": {
+  {
     "inputFile": "xlsx/uc/uc_section_props.xlsx",
     "outFile": "export/json/uc_section_props.json",
     "headerRowCount": 9,
@@ -71,7 +71,7 @@
       "Unnamed: 29": "Area of Section, A (cm2)"
     }
   },
-  "ubp": {
+  {
     "inputFile": "xlsx/ubp/ubp_section_props.xlsx",
     "outFile": "export/json/ubp_section_props.json",
     "headerRowCount": 9,
@@ -107,7 +107,7 @@
       "Unnamed: 29": "Area of Section, A (cm2)"
     }
   },
-  "pfc": {
+  {
     "inputFile": "xlsx/pfc/pfc_section_props.xlsx",
     "outFile": "export/json/pfc_section_props.json",
     "headerRowCount": 9,
@@ -144,7 +144,7 @@
       "Unnamed: 30": "Area of Section, A (cm2)"
     }
   },
-  "t-split-from-ub": {
+  {
     "inputFile": "xlsx/t_split_from_ub/t_split_from_ub_section_props.xlsx",
     "outFile": "export/json/t_split_from_ub_section_props.json",
     "headerRowCount": 9,
@@ -178,7 +178,7 @@
       "Unnamed: 27": "Area of Section, A (cm2)"
     }
   },
-  "t-split-from-uc": {
+  {
     "inputFile": "xlsx/t_split_from_uc/t_split_from_uc_section_props.xlsx",
     "outFile": "export/json/t_split_from_uc_section_props.json",
     "headerRowCount": 9,
@@ -212,7 +212,7 @@
       "Unnamed: 27": "Area of Section, A (cm2)"
     }
   },
-  "unequal-l": {
+  {
     "inputFile": "xlsx/unequal_l/unequal_l_section_props.xlsx",
     "outFile": "export/json/unequal_l_section_props.json",
     "headerRowCount": 9,
@@ -242,7 +242,7 @@
       "Unnamed: 26": "Area of Section, A (cm2)"
     }
   },
-  "equal-l": {
+  {
     "inputFile": "xlsx/equal_l/equal_l_section_props.xlsx",
     "outFile": "export/json/equal_l_section_props.json",
     "headerRowCount": 9,
@@ -265,7 +265,7 @@
       "Unnamed: 16": "Area of Section, A (cm2)"
     }
   },
-  "hf-shs": {
+  {
     "inputFile": "xlsx/hf_shs/hf_shs_section_props.xlsx",
     "outFile": "export/json/hf_shs_section_props.json",
     "headerRowCount": 9,
@@ -285,7 +285,7 @@
       "Unnamed: 13": "Surface Area Per Tonne (m2)"
     }
   },
-  "hf-rhs": {
+  {
     "inputFile": "xlsx/hf_rhs/hf_rhs_section_props.xlsx",
     "outFile": "export/json/hf_rhs_section_props.json",
     "headerRowCount": 9,
@@ -310,7 +310,7 @@
       "Unnamed: 18": "Surface Area Per Tonne (m2)"
     }
   },
-  "hf-chs": {
+  {
     "inputFile": "xlsx/hf_chs/hf_chs_section_props.xlsx",
     "outFile": "export/json/hf_chs_section_props.json",
     "headerRowCount": 9,
@@ -330,7 +330,7 @@
       "Unnamed: 13": "Surface Area Per Tonne (m2)"
     }
   },
-  "hf-ehs": {
+  {
     "inputFile": "xlsx/hf_ehs/hf_ehs_section_props.xlsx",
     "outFile": "export/json/hf_ehs_section_props.json",
     "headerRowCount": 9,
@@ -353,7 +353,7 @@
       "Unnamed: 16": "Surface Area Per Tonne (m2)"
     }
   },
-  "cf-shs": {
+  {
     "inputFile": "xlsx/cf_shs/cf_shs_section_props.xlsx",
     "outFile": "export/json/cf_shs_section_props.json",
     "headerRowCount": 9,
@@ -373,7 +373,7 @@
       "Unnamed: 13": "Surface Area Per Tonne (m2)"
     }
   },
-  "cf-rhs": {
+  {
     "inputFile": "xlsx/cf_rhs/cf_rhs_section_props.xlsx",
     "outFile": "export/json/cf_rhs_section_props.json",
     "headerRowCount": 9,
@@ -398,7 +398,7 @@
       "Unnamed: 18": "Surface Area Per Tonne (m2)"
     }
   },
-  "cf-chs": {
+  {
     "inputFile": "xlsx/cf_chs/cf_chs_section_props.xlsx",
     "outFile": "export/json/cf_chs_section_props.json",
     "headerRowCount": 9,
@@ -418,4 +418,4 @@
       "Unnamed: 13": "Surface Area Per Tonne (m2)"
     }
   }
-}
+]
