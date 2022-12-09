@@ -50,7 +50,7 @@ Perhaps the easiest way to get started with the API is to simply fire up a *deve
 Within your console, run the following two commands:
 
 ```javascript
-let res = await fetch('https://jamesbayley.github.io/cdn/v1/section-properties/ub.json')
+let res = await fetch('https://jamesbayley.github.io/cdn/v1/section-properties/ub.json');
 let sections = await res.json();
 ```
 
